@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'Abimanyu-app-003'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_236E1CE31A3D4DAC9643FD5B98C24E06 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C459F6E27BD74FB9A7E7B52C80837780 }}
           package: .
