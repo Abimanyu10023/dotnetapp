@@ -9,7 +9,7 @@ namespace ResumeUploader
     {
         static async Task Main(string[] args)
         {
-            string resumeFilePath = "https://abistore.blob.core.windows.net/abi03-containerr"; // Update with the actual file path of your resume
+            string resumeFilePath = "https://github.com/Abimanyu10023/dotnetapp.githttps://abistore.blob.core.windows.net/abi03-containerr"; // Update with the actual file path of your resume
 
             try
             {
@@ -33,7 +33,7 @@ namespace ResumeUploader
                     multipartContent.Add(fileContent);
 
                     // Send the HTTP POST request to the server
-                    var response = await httpClient.PostAsync("https://your-upload-api-endpoint", multipartContent);
+                    var response = await httpClient.PostAsync("https://abistore.blob.core.windows.net/abi03-containerr", multipartContent);
 
                     // Check if the upload was successful
                     if (response.IsSuccessStatusCode)
